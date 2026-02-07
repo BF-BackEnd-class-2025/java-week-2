@@ -16,10 +16,6 @@ public class Example2
         obj.publicMethod();
         obj.protectedMethod();
         obj.defaultMethod();
-        obj.privateMethod();
-        staticMethod();
-        obj.finalMethod();
-        obj.synchronizedMethod();
     }
 
     // Public method → accessible everywhere

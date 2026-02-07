@@ -1,5 +1,7 @@
 package methods.exercises;
 
+import methods.examples.Example1;
+
 /**
  * Exercise 1: Basic Methods
  * -------------------------
@@ -13,6 +15,9 @@ public class Exercise1
 {
     public static void main(String[] args)
     {
+
+        Example1.staticGreeting();  //call a public method from a different class
+
         Exercise1 obj = new Exercise1();
 
         // Example usage
