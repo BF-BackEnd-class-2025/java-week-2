@@ -1,5 +1,9 @@
 package classes.examples;
 
+//import classes.exercises.Exercise2;       //cannot import because the constructor is not public
+//import classes.exercises.WeTrySomething;  //cannot import bc the class is not public
+
+
 /**
  * Example 2: Constructors
  * - Default and Parameterized Constructors
@@ -14,6 +18,11 @@ public class Example2Constructors
 
         who.display();
         preeti.display();
+
+
+//        WeTrySomething wts = new WeTrySomething();
+//        neither of them works because they are not public
+//        Exercise2 = new Exercise2();
     }
 }
 

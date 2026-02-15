@@ -10,7 +10,7 @@ public class ShapeDemo {
     }
 
     public int write(Shape shape) { //the parameter type is Shape, so any subclass of shape are welcome here
-        shape.draw();     //
+        shape.draw();
         return 0;
     }
 }
