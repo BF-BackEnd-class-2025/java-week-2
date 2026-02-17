@@ -1,4 +1,4 @@
-package school;
+package static_school;
 
 public class Student {
 

@@ -2,7 +2,8 @@ package projects;
 import java.util.Scanner;
 
 /*
-    This is a refactoring project, start with a solution of drawing a straight pyramid using stars. Get userInput from user.
+    This is a refactoring project, delete the solution written down.
+    Start with drawing a straight pyramid using stars. Get userInput from user.
     Ex:
     userInput=5
     *
@@ -10,7 +11,9 @@ import java.util.Scanner;
     ***
     ****
     *****
-    * Make the code in a method if you haven't done it yet,
+
+    After solving the problem, do these refactors one by one:
+    * Put the code in a method if you haven't done it yet,
     * Implement an inverted pyramid
     * Implement a method for returning them instead of printing.
     * Take a look at your names of your variable and method names, are they self-explanatory?
@@ -27,7 +30,7 @@ public class Pyramid {
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Please enter the input: ");
-        if (scanner.hasNextInt()){
+        if (scanner.hasNextInt()) {
             userInput = scanner.nextInt();
             printPyramid(userInput, isStraight);
         }

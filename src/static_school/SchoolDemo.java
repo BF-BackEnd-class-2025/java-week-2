@@ -1,4 +1,4 @@
-package school;
+package static_school;
 
 //this is an example for learning about static
 public class SchoolDemo {
